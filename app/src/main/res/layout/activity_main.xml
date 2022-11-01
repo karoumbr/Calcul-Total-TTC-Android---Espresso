@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCT"
+        android:text="Calcul Total TTC"
+        android:textSize="38sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edtHT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir Montant HT"
+        />
+    <EditText
+        android:id="@+id/edtTVA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir taux TVA"
+        />
+    <EditText
+        android:id="@+id/edtQte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir Quantité"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer Montant TTC"
+        android:id="@+id/btnTTC" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vider champs"
+        android:id="@+id/btnVid" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTVA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTTC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        />
+
+
+
+
+
+</LinearLayout>

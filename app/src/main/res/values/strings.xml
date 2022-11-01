@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calcul Total TTC</string>
+    <string name="edtHT_Vide">Erreur: valeur vide montant HT</string>
+</resources>
